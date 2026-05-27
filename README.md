@@ -1,6 +1,9 @@
 # AdBlocker Extension
 Minimal Safari ad blocker using `declarativeNetRequest`.
 
+***Note:*** I put this together before [uBlock Origin Lite](https://apps.apple.com/us/app/ublock-origin-lite/id6745342698) became available on MacOS/iOS/iPadOS.  This repo is a functional ad blocker, but it only blocks a small subset of ads, trackers, etc.  For real use cases you should install uBlock and set it to the "complete" filtering mode.
+
+
 ## Features
 - Blocks permutations of `prebid.js`, `ads.js`, and anything in an `\ads\` directory.
 - Blocks all domains listed here: [d3ward's Adblock Test](https://d3ward.github.io/toolz/adblock)
